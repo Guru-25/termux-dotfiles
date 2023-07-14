@@ -1,0 +1,6 @@
+#!/bin/bash
+clear
+
+if [[ "$1" =~ ^.*instagram.*$ ]]; then
+    gallery-dl "$1"
+fi    

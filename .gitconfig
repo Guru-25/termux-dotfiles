@@ -1,0 +1,16 @@
+[user]
+	name = Guru-25
+	email = guru@duck.com
+[alias]
+	st = status
+	ci = commit
+	ac = commit -am
+	co = checkout
+	br = branch
+	df = diff
+	dfr = diff main origin/main
+	lg = log --oneline --decorate --all --graph
+[advice]
+	statusHints = false
+[pull]
+	rebase = true
