@@ -6,5 +6,9 @@
         {
             "cookies": "~/.config/gallery-dl/cookies.txt"
         }
-    }
+    },
+    "downloader":
+    {
+    	"mtime": false
+    }	
 }

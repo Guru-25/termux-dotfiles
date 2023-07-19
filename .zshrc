@@ -41,7 +41,7 @@ export EDITOR='nvim' # $EDITOR use nvim in terminal
 
 ### VARIABLES
 PKG_BKUP_PATH="$HOME/.backup/packages.txt"
-IP='localhost'
+IP='192.168.29.100'
 
 ### SEARCH INSTALLED PACKAGES
 function search() {
@@ -87,8 +87,9 @@ alias pkgu='pkg up -y'
 alias pipu='if [[ $(pip list --outdated | wc -l) -gt 2 ]]; then pip list --outdated --format=columns | awk '\'"{print $1}"\'' | tail -n +3 | xargs -n1 pip install -U; else echo "No outdated packages to upgrade"; fi'
 alias cleanup='pkg clean && apt autoremove && pip cache purge'
 
-# pkg packages list
+# pkg packages & apps list
 alias backup='printf "# pkg\n" > $PKG_BKUP_PATH && dpkg -l | grep "^ii" | awk "{print \$2}" >> $PKG_BKUP_PATH && printf "done\n"'
+alias apps='adb shell pm list packages | sed "s/package://" | sort > ~/.backup/apps.txt'
 
 # stats
 alias mem="free -m | awk 'NR==2{printf \"RAM Usage: %.1f%%\\n\\n\", (\$3/\$2)*100}' && ps -eo comm,%cpu,pid,%mem --sort=-%mem | head -n 11 | sed 's/COMMAND/PROCESS/g'"
@@ -114,6 +115,7 @@ alias blocklist='~/.scripts/custom/blocklist.sh'
 alias brave='~/.scripts/custom/brave.sh'
 alias mull='~/.scripts/custom/mull.sh'
 alias kodi='~/.scripts/custom/kodi.sh'
+alias short='~/.scripts/custom/short.sh'
 
 # adb
 alias debug='adb connect $IP:$(nmap -sT $IP -p30000-49999 | awk -F/ "/open/{print \$1; exit}")'
