@@ -1,9 +1,9 @@
 from pyrogram import Client, filters
 
 print()
-ses = input("Enter Session String: ")
 api_id = int(input("Enter api_id: "))
 api_hash = input("Enter api_hash: ")
+ses = input("Enter Session String: ")
 
 app = Client(':memory:', session_string=ses, api_id=api_id, api_hash=api_hash)
 with app as c:
