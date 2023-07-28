@@ -112,8 +112,6 @@ alias home='cd ~/storage/shared/'
 
 # user script
 alias blocklist='~/.scripts/custom/blocklist.sh'
-alias brave='~/.scripts/custom/brave.sh'
-alias mull='~/.scripts/custom/mull.sh'
 alias kodi='~/.scripts/custom/kodi.sh'
 alias short='~/.scripts/custom/short.sh'
 
