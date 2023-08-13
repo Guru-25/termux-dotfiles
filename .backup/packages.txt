@@ -1,4 +1,6 @@
 # pkg
+aapt
+aapt2
 abseil-cpp
 android-tools
 apt
@@ -40,7 +42,6 @@ gdk-pixbuf
 giflib
 git
 glib
-golang
 gpgv
 grep
 gzip
@@ -139,6 +140,7 @@ libxrandr
 libxrender
 libxt
 libxtst
+libzopfli
 littlecms
 lld
 llvm
@@ -173,6 +175,7 @@ pcre2
 pkg-config
 procps
 psmisc
+pup
 python
 python-ensurepip-wheels
 python-pip
