@@ -7,7 +7,6 @@ android.frameworkres.overlay.display.product
 android.overlay.common
 android.overlay.target
 app.revanced.android.youtube
-ch.protonvpn.android
 com.android.apps.tag
 com.android.backupconfirm
 com.android.bips
@@ -61,6 +60,9 @@ com.android.providers.settings
 com.android.providers.telephony
 com.android.providers.userdictionary
 com.android.proxyhandler
+com.android.remoteprovisioner
+com.android.safetycenter.resources.overlay
+com.android.safetycenter.styles.overlay
 com.android.se
 com.android.server.telecom
 com.android.server.telecom.overlay.common
@@ -69,7 +71,6 @@ com.android.settings.intelligence
 com.android.settings.overlay.common
 com.android.sharedstoragebackup
 com.android.shell
-com.android.smspush
 com.android.statementservice
 com.android.storagemanager
 com.android.systemui
@@ -94,6 +95,7 @@ com.android.wifi.resources.overlay.oplus
 com.android.wifi.resources.overlay.target
 com.beemdevelopment.aegis
 com.brave.browser
+com.camerasideas.instashot
 com.coloros.alarmclock
 com.coloros.bootreg
 com.coloros.calculator
@@ -106,6 +108,7 @@ com.discord
 com.fido.fido2client
 com.fsck.k9
 com.google.android.adservices.api
+com.google.android.apps.nbu.files
 com.google.android.apps.nbu.paisa.user
 com.google.android.apps.paidtasks
 com.google.android.apps.pdfviewer
@@ -121,6 +124,7 @@ com.google.android.contacts
 com.google.android.documentsui
 com.google.android.ext.services
 com.google.android.ext.shared
+com.google.android.federatedcompute
 com.google.android.gms
 com.google.android.gsf
 com.google.android.ims
@@ -155,11 +159,13 @@ com.google.mainline.telemetry
 com.heytap.colorfulengine
 com.instagram.android
 com.instander.android
+com.jetstartgames.chess
 com.junkfood.seal
 com.mgoogle.android.gms
 com.mixplorer
 com.mixplorer.addon.archive
 com.octoze.camu.mycamuapp
+com.oplus.aiunit
 com.oplus.android.overlay.gmsconfig.common
 com.oplus.android.overlay.modules.documentsui
 com.oplus.appplatform
@@ -168,6 +174,7 @@ com.oplus.battery
 com.oplus.callrecorder
 com.oplus.camera
 com.oplus.cota
+com.oplus.eid
 com.oplus.engineercamera
 com.oplus.engineermode
 com.oplus.engineermodeforflipkart
@@ -180,7 +187,10 @@ com.oplus.framework_bluetooth.overlay
 com.oplus.gesture
 com.oplus.location
 com.oplus.locationproxy
+com.oplus.metis
 com.oplus.multimedia.dirac
+com.oplus.nas
+com.oplus.ndsf
 com.oplus.notificationmanager
 com.oplus.nrMode
 com.oplus.ota
@@ -198,17 +208,19 @@ com.oplus.stdid
 com.oplus.trafficmonitor
 com.oplus.uiengine
 com.oplus.uxdesign
+com.oplus.vdc
+com.oplus.viewtalk
+com.oplus.virtualcomm
 com.oplus.wallpapers
 com.oplus.wifitest
 com.oplus.wirelesssettings
 com.qti.confuridialer
+com.qti.dcf
 com.qti.dpmserviceapp
-com.qti.ltebc
 com.qti.phone
 com.qti.qcc
 com.qti.qualcomm.datastatusnotification
 com.qti.service.colorservice
-com.qti.snapdragon.qdcm_ff
 com.qualcomm.location
 com.qualcomm.qcrilmsgtunnel
 com.qualcomm.qti.cne
@@ -220,9 +232,7 @@ com.qualcomm.qti.lpa
 com.qualcomm.qti.performancemode
 com.qualcomm.qti.poweroffalarm
 com.qualcomm.qti.powersavemode
-com.qualcomm.qti.qcolor
 com.qualcomm.qti.remoteSimlockAuth
-com.qualcomm.qti.ridemodeaudio
 com.qualcomm.qti.seccamservice
 com.qualcomm.qti.simcontacts
 com.qualcomm.qti.telephonyservice
@@ -264,7 +274,6 @@ org.telegram.messenger.web
 org.torproject.torbrowser
 org.videolan.vlc
 org.xbmc.kodi
-proton.android.pass
 se.dirac.acs
 vendor.qti.hardware.cacert.server
 vendor.qti.imsrcs
