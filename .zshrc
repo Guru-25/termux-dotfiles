@@ -36,7 +36,7 @@ ZSH_HIGHLIGHT_STYLES[path_prefix]=none
 export EDITOR='nvim' # $EDITOR use nvim in terminal
 
 ### "bat" as manpager
-# export MANPAGER='sh -c "col -bx | bat -l man -p"'
+export MANPAGER='nvim +Man!'
 # export MANROFFOPT='-c'
 
 ### VARIABLES
@@ -51,11 +51,11 @@ function search() {
 ### ALIASES ###
 
 # Changing "ls" to "exa"
-alias ls='exa --color=always --group-directories-first'     # my preferred listing
-alias la='exa -a --color=always --group-directories-first'  # all files and dirs
-alias ll='exa -al --color=always --group-directories-first' # long format
-alias lt='exa -aT --color=always --group-directories-first' # tree listing
-alias l.='exa -a | grep -E "^\."'
+alias ls='eza --color=always --group-directories-first'     # my preferred listing
+alias la='eza -a --color=always --group-directories-first'  # all files and dirs
+alias ll='eza -al --color=always --group-directories-first' # long format
+alias lt='eza -aT --color=always --group-directories-first' # tree listing
+alias l.='eza -a | grep -E "^\."'
 
 # confirm before overwriting something
 alias cp='cp -i'

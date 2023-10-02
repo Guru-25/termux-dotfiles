@@ -27,7 +27,7 @@ dos2unix
 dpkg
 dwarves
 ed
-exa
+eza
 ffsend
 fftw
 findutils
