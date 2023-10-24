@@ -96,7 +96,6 @@ com.android.wifi.resources.overlay.oplus
 com.android.wifi.resources.overlay.target
 com.beemdevelopment.aegis
 com.brave.browser
-com.cloudflare.onedotonedotonedotone
 com.coloros.alarmclock
 com.coloros.bootreg
 com.coloros.calculator
@@ -120,6 +119,7 @@ com.google.android.cellbroadcastservice.overlay
 com.google.android.configupdater
 com.google.android.connectivity.resources
 com.google.android.contacts
+com.google.android.dialer
 com.google.android.documentsui
 com.google.android.ext.services
 com.google.android.ext.shared
@@ -160,6 +160,7 @@ com.instagram.android
 com.instander.android
 com.junkfood.seal
 com.mgoogle.android.gms
+com.miniclip.carrom
 com.mixplorer
 com.mixplorer.addon.archive
 com.octoze.camu.mycamuapp
@@ -235,7 +236,6 @@ com.qualcomm.qtil.btdsda
 com.qualcomm.timeservice
 com.qualcomm.wfd.service
 com.shadow.blackhole
-com.simplemobiletools.dialer
 com.simplemobiletools.smsmessenger
 com.skemailmobileapp
 com.snapchat.android
@@ -243,14 +243,17 @@ com.termux
 com.whatsapp
 com.windscribe.vpn
 com.x8bit.bitwarden
+dev.imranr.obtainium
 idm.internet.download.manager.plus
 im.vector.app
 io.github.muntashirakon.AppManager
+is.xyz.mpv
 me.jagar.xscamera
 me.proton.android.calendar
 me.rhunk.snapenhance
 ml.docilealligator.infinityforreddit
 net.cozic.joplin
+np.pro.dipendra.iptv
 oplus
 oplus.frameworkres.overlay.display.product
 org.codeaurora.ims
@@ -264,6 +267,7 @@ org.torproject.torbrowser
 org.videolan.vlc
 org.xbmc.kodi
 se.dirac.acs
+studio.scillarium.ottnavigator
 vendor.qti.hardware.cacert.server
 vendor.qti.imsrcs
 vendor.qti.iwlan
