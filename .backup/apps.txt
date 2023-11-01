@@ -96,6 +96,7 @@ com.android.wifi.resources.overlay.oplus
 com.android.wifi.resources.overlay.target
 com.beemdevelopment.aegis
 com.brave.browser
+com.camerasideas.instashot
 com.coloros.alarmclock
 com.coloros.bootreg
 com.coloros.calculator
@@ -208,6 +209,7 @@ com.oplus.virtualcomm
 com.oplus.wallpapers
 com.oplus.wifitest
 com.oplus.wirelesssettings
+com.pecana.iptvextremepro
 com.qti.confuridialer
 com.qti.dpmserviceapp
 com.qti.phone
@@ -236,9 +238,11 @@ com.qualcomm.qtil.btdsda
 com.qualcomm.timeservice
 com.qualcomm.wfd.service
 com.shadow.blackhole
+com.shamim.cam
 com.simplemobiletools.smsmessenger
 com.skemailmobileapp
 com.snapchat.android
+com.spotify.music
 com.termux
 com.whatsapp
 com.windscribe.vpn
