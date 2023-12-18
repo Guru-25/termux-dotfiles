@@ -39,16 +39,10 @@ export EDITOR='nvim' # $EDITOR use nvim in terminal
 
 ### "bat" as manpager
 export MANPAGER='nvim +Man!'
-# export MANROFFOPT='-c'
 
 ### VARIABLES
 PKG_BKUP_PATH="$HOME/.backup/packages.txt"
 IP='192.168.29.100'
-
-### SEARCH INSTALLED PACKAGES
-function search() {
-	grep "$1" $PKG_BKUP_PATH
-}
 
 ### ALIASES ###
 
@@ -93,10 +87,6 @@ alias cleanup='pkg clean && apt autoremove && pip cache purge'
 alias backup='printf "# pkg\n" > $PKG_BKUP_PATH && dpkg -l | grep "^ii" | awk "{print \$2}" >> $PKG_BKUP_PATH && printf "done\n"'
 alias apps='adb shell pm list packages | sed 's/package://' | sort > ~/.backup/apps.txt'
 
-# stats
-#alias mem="free -m | awk 'NR==2{printf \"RAM Usage: %.1f%%\\n\\n\", (\$3/\$2)*100}' && ps -eo comm,%cpu,pid,%mem --sort=-%mem | head -n 11 | sed 's/COMMAND/PROCESS/g'"
-#alias psgrep='ps aux | grep -v grep | grep -i -e VSZ -e'
-
 # refresh zsh
 alias refresh='source ~/.zshrc'
 
@@ -116,9 +106,6 @@ alias home='cd ~/storage/shared/'
 alias blocklist='~/.scripts/custom/blocklist.sh'
 alias kodi='~/.scripts/custom/kodi.sh'
 alias short='~/.scripts/custom/short.sh'
-
-# adb
-#alias debug='adb connect $IP:$(nmap -sT $IP -p30000-49999 | awk -F/ "/open/{print \$1; exit}")'
 
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
