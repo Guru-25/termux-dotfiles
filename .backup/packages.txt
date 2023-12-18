@@ -56,6 +56,7 @@ krb5
 ldns
 less
 lf
+libandroid-execinfo
 libandroid-glob
 libandroid-posix-semaphore
 libandroid-shmem
@@ -201,6 +202,7 @@ unzip
 util-linux
 wget
 whois
+x11-repo
 xxhash
 xz-utils
 zlib
