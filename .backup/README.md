@@ -22,13 +22,7 @@ export COLUMNS LINES
 ./install.sh
 ```
 
-- [tgpt](https://github.com/aandrew-me/tgpt#install-with-go)
+- [Revancify](https://github.com/decipher3114/Revancify#installation)
 ```
-pkg install go
-go install github.com/aandrew-me/tgpt@latest
-```
-
-- [Revancify-X](https://github.com/kastentop2005/Revancify-X#installation)
-```
-curl -sL "https://raw.githubusercontent.com/kastentop2005/Revancify-X/main/install.sh" | bash
+curl -sL "https://raw.githubusercontent.com/decipher3114/Revancify/main/install.sh" | bash
 ```
