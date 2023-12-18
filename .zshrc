@@ -27,6 +27,7 @@ sshd
 
 # User configuration
 
+alias dev='am start -a android.settings.APPLICATION_DEVELOPMENT_SETTINGS'
 alias rish='~/.scripts/custom/rish'
 
 ### disable underline in zsh-syntax-highlighting
