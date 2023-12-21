@@ -28,7 +28,6 @@ dpkg
 dwarves
 ed
 eza
-ffsend
 fftw
 findutils
 flex
