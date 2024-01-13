@@ -89,11 +89,9 @@ com.coloros.gallery3d
 com.coloros.lockassistant
 com.coloros.oshare
 com.coloros.weather.service
-com.facebook.appmanager
-com.facebook.services
-com.facebook.system
 com.fido.fido2client
 com.google.android.adservices.api
+com.google.android.apps.messaging
 com.google.android.apps.nbu.paisa.user
 com.google.android.as.oss
 com.google.android.captiveportallogin
