@@ -103,7 +103,6 @@ alias home='cd ~/storage/shared/'
 # user script
 alias mull='~/.scripts/custom/mull.sh'
 alias blocklist='~/.scripts/custom/blocklist.sh'
-alias kodi='~/.scripts/custom/kodi.sh'
 alias short='~/.scripts/custom/short.sh'
 
 ### SETTING THE STARSHIP PROMPT ###
