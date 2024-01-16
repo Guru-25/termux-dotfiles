@@ -78,8 +78,7 @@ function cfg(){
 
 # pkg and pip update
 alias pkgu='pkg up -y'
-alias pipu='if [[ $(pip list --outdated | wc -l) -gt 2 ]]; then pip list --outdated --format=columns | awk '\'"{print $1}"\'' | tail -n +3 | xargs -n1 pip install -U; else echo "No outdated packages to upgrade"; fi'
-alias cleanup='pkg clean && apt autoremove && pip cache purge'
+alias cleanup='pkg clean && apt autoremove'
 
 # pkg packages & apps list
 alias backup='printf "# pkg\n" > $PKG_BKUP_PATH && dpkg -l | grep "^ii" | awk "{print \$2}" >> $PKG_BKUP_PATH && printf "done\n"'
