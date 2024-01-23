@@ -1,12 +1,9 @@
 # pkg
-abseil-cpp
-android-tools
 apt
 argp
 attr
 bash
 bash-completion
-bat
 bc
 brotli
 bzip2
@@ -30,7 +27,6 @@ flex
 fontconfig
 freetype
 fribidi
-fzf
 gawk
 gdbm
 gdk-pixbuf
@@ -50,7 +46,6 @@ jq
 krb5
 ldns
 less
-lf
 libandroid-execinfo
 libandroid-glob
 libandroid-posix-semaphore
@@ -87,22 +82,18 @@ libidn2
 libjpeg-turbo
 libjxl
 libllvm
-liblua54
 libluajit
 liblz4
 liblzma
 liblzo
 libmd
-libmpdclient
 libmpfr
 libmsgpack
 libnettle
 libnghttp2
 libnpth
-libpcap
 libpixman
 libpng
-libprotobuf
 librav1e
 libresolv-wrapper
 librsvg
@@ -116,7 +107,6 @@ libtreesitter
 libunbound
 libunibilium
 libunistring
-libusb
 libuuid
 libuv
 libvterm
@@ -138,17 +128,13 @@ luv
 m4
 make
 man
-mpc
 nano
 ncurses
 ncurses-ui-libs
-ncurses-utils
 ndk-sysroot
 neofetch
 neovim
 net-tools
-nmap
-nmap-ncat
 oniguruma
 openexr
 openjpeg
@@ -162,7 +148,6 @@ pcre2
 pkg-config
 procps
 psmisc
-pup
 python
 python-ensurepip-wheels
 python-pip
@@ -180,8 +165,6 @@ termux-exec
 termux-keyring
 termux-licenses
 termux-tools
-tig
-tmux
 ttf-dejavu
 unbound
 unzip
