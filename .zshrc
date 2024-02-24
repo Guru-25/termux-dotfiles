@@ -7,7 +7,6 @@ plugins=(
   bgnotify
   zsh-fzf-history-search
 )
-
 PATH="$PREFIX/bin:$HOME/.local/bin:$HOME/go/bin:$PATH"
 export PATH
 

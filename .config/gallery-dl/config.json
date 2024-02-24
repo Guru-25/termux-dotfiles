@@ -4,6 +4,7 @@
         "base-directory": "/storage/emulated/0/Apps/gallery-dl/",
         "instagram":
         {
+        	"directory": ["{username}"],
             "cookies": "~/.config/gallery-dl/cookies.txt"
         }
     },
