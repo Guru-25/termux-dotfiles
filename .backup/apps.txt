@@ -91,6 +91,7 @@ com.coloros.oshare
 com.coloros.weather.service
 com.fido.fido2client
 com.google.android.adservices.api
+com.google.android.apps.maps
 com.google.android.apps.messaging
 com.google.android.apps.nbu.paisa.user
 com.google.android.as.oss
