@@ -1,9 +1,12 @@
 # pkg
+abseil-cpp
+android-tools
 apt
 argp
 attr
 bash
 bash-completion
+bat
 bc
 brotli
 bzip2
@@ -91,9 +94,11 @@ libmpfr
 libmsgpack
 libnettle
 libnghttp2
+libnghttp3
 libnpth
 libpixman
 libpng
+libprotobuf
 librav1e
 libresolv-wrapper
 librsvg
@@ -107,6 +112,7 @@ libtreesitter
 libunbound
 libunibilium
 libunistring
+libusb
 libuuid
 libuv
 libvterm
