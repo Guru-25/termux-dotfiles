@@ -137,6 +137,7 @@ com.google.android.webview
 com.google.mainline.adservices
 com.google.mainline.telemetry
 com.heytap.colorfulengine
+com.heytap.market
 com.oplus.aiunit
 com.oplus.android.overlay.gmsconfig.common
 com.oplus.android.overlay.modules.documentsui

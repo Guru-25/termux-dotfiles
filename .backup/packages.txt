@@ -24,6 +24,7 @@ dpkg
 dwarves
 ed
 eza
+fastfetch
 fftw
 findutils
 flex
@@ -138,7 +139,6 @@ nano
 ncurses
 ncurses-ui-libs
 ndk-sysroot
-neofetch
 neovim
 net-tools
 oniguruma
@@ -175,6 +175,8 @@ ttf-dejavu
 unbound
 unzip
 util-linux
+vulkan-loader
+vulkan-loader-generic
 wget
 whois
 x11-repo
