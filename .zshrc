@@ -58,21 +58,7 @@ alias mv='mv -i'
 alias rm='rm -i'
 
 # bare git repo alias for dotfiles
-alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-alias ctig='GIT_DIR=$HOME/.cfg GIT_WORK_TREE=$HOME tig'
-
-function cfg(){
-  if [[ "$#" -eq 0 ]]; then
-    (cd /
-    for i in $(config ls-files); do
-      echo -n "$(config -c color.status=always status $i -s | sed "s#$i##")"
-      echo -e "¬/$i¬\e[0;33m$(config -c color.ui=always log -1 --format="%s" -- $i)\e[0m"
-    done
-    ) | column -t --separator=¬ -T2
-  else
-    config $*
-  fi
-}
+alias cfg='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # pkg and pip update
 alias pkgu='pkg up -y'
