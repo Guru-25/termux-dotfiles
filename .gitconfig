@@ -9,7 +9,7 @@
 	co = checkout
 	br = branch
 	df = diff
-	dfr = diff main origin/main
+	dfr = diff main FETCH_HEAD
 	lg = log --oneline --decorate --all --graph
 [advice]
 	statusHints = false
