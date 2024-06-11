@@ -7,7 +7,7 @@ plugins=(
   bgnotify
   zsh-fzf-history-search
 )
-PATH="$PREFIX/bin:$HOME/.local/bin:$HOME/go/bin:$PATH"
+PATH="$PREFIX/bin:$HOME/.local/bin:$PATH"
 export PATH
 
 LINK="https://github.com/mayTermux"
