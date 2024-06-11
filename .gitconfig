@@ -1,6 +1,7 @@
 [user]
 	name = Guru
 	email = guru@duck.com
+	signingkey = /data/data/com.termux/files/home/.ssh/id_ed25519.pub
 [alias]
 	st = status
 	ci = commit
@@ -12,5 +13,7 @@
 	lg = log --oneline --decorate --all --graph
 [advice]
 	statusHints = false
-[pull]
-	rebase = true
+[gpg]
+  format = ssh
+[commit]
+  gpgsign = true
