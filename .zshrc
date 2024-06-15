@@ -21,7 +21,7 @@ export TERM=xterm-256color
 source $ZSH/oh-my-zsh.sh
 source $HOME/.autostart
 
-sshd
+# sshd
 
 # User configuration
 
