@@ -10,6 +10,7 @@ bat
 bc
 brotli
 bzip2
+c-ares
 ca-certificates
 clang
 command-not-found
@@ -82,10 +83,12 @@ libgpg-error
 libgraphite
 libheif
 libiconv
+libicu
 libidn2
 libjpeg-turbo
 libjxl
 libllvm
+liblua51
 libluajit
 liblz4
 liblzma
@@ -106,7 +109,6 @@ librsvg
 libsmartcols
 libsqlite
 libssh2
-libtermkey
 libtiff
 libtirpc
 libtreesitter
@@ -131,6 +133,7 @@ littlecms
 lld
 llvm
 lsof
+lua51-lpeg
 luv
 m4
 make
@@ -141,6 +144,7 @@ ncurses-ui-libs
 ndk-sysroot
 neovim
 net-tools
+nodejs-lts
 oniguruma
 openexr
 openjpeg
@@ -171,6 +175,10 @@ termux-exec
 termux-keyring
 termux-licenses
 termux-tools
+tree-sitter-lua
+tree-sitter-markdown
+tree-sitter-query
+tree-sitter-vimdoc
 ttf-dejavu
 unbound
 unzip
