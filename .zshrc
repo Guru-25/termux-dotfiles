@@ -25,6 +25,7 @@ source $HOME/.autostart
 
 # User configuration
 
+alias sk='node mongo-query'
 alias dev='am start -a android.settings.APPLICATION_DEVELOPMENT_SETTINGS'
 alias rish='~/.scripts/custom/rish'
 
