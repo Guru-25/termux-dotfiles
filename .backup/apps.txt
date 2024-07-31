@@ -88,6 +88,7 @@ com.coloros.calculator
 com.coloros.gallery3d
 com.coloros.lockassistant
 com.coloros.oshare
+com.coloros.soundrecorder
 com.coloros.weather.service
 com.fido.fido2client
 com.google.android.adservices.api
