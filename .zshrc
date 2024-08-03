@@ -84,11 +84,6 @@ it() {
 # go to home
 alias home='cd ~/storage/shared/'
 
-# user script
-alias mull='~/.scripts/custom/mull.sh'
-alias blocklist='~/.scripts/custom/blocklist.sh'
-alias short='~/.scripts/custom/short.sh'
-
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
 
