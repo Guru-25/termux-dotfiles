@@ -175,9 +175,12 @@ termux-exec
 termux-keyring
 termux-licenses
 termux-tools
+tree-sitter-c
 tree-sitter-lua
 tree-sitter-markdown
+tree-sitter-parsers
 tree-sitter-query
+tree-sitter-vim
 tree-sitter-vimdoc
 ttf-dejavu
 unbound
