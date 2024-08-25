@@ -155,6 +155,7 @@ patch
 pcre
 pcre2
 pkg-config
+postgresql
 procps
 psmisc
 python
