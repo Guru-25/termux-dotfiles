@@ -38,6 +38,7 @@ gdk-pixbuf
 giflib
 git
 glib
+gnupg
 gpgv
 grep
 gzip
@@ -54,6 +55,7 @@ less
 libandroid-execinfo
 libandroid-glob
 libandroid-posix-semaphore
+libandroid-selinux
 libandroid-shmem
 libandroid-support
 libaom
@@ -87,6 +89,7 @@ libicu
 libidn2
 libjpeg-turbo
 libjxl
+libksba
 libllvm
 liblua51
 libluajit
@@ -154,6 +157,7 @@ pango
 patch
 pcre
 pcre2
+pinentry
 pkg-config
 postgresql
 procps

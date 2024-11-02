@@ -1,7 +1,7 @@
 [user]
 	name = Guru
-	email = guru@duck.com
-	signingkey = /data/data/com.termux/files/home/.ssh/id_ed25519.pub
+	email = mail@gururaja.in
+	signingkey = 58FB3EF9E4EDAEBB
 [alias]
 	st = status
 	ci = commit
@@ -13,7 +13,7 @@
 	lg = log --oneline --decorate --all --graph
 [advice]
 	statusHints = false
-[gpg]
-	format = ssh
 [commit]
 	gpgsign = true
+[init]
+	defaultBranch = main

@@ -95,6 +95,7 @@ com.google.android.adservices.api
 com.google.android.apps.maps
 com.google.android.apps.messaging
 com.google.android.apps.nbu.paisa.user
+com.google.android.appsearch.apk
 com.google.android.as.oss
 com.google.android.captiveportallogin
 com.google.android.cellbroadcastreceiver
@@ -130,6 +131,7 @@ com.google.android.overlay.modules.permissioncontroller.forframework
 com.google.android.packageinstaller
 com.google.android.permissioncontroller
 com.google.android.permissioncontroller.overlay.oplus
+com.google.android.photopicker
 com.google.android.providers.media.module
 com.google.android.safetycenter.resources
 com.google.android.sdksandbox
@@ -150,7 +152,6 @@ com.oplus.camera
 com.oplus.cota
 com.oplus.engineercamera
 com.oplus.engineermode
-com.oplus.engineermodeforflipkart
 com.oplus.engineernetwork
 com.oplus.exserviceui
 com.oplus.exsystemservice
@@ -158,8 +159,6 @@ com.oplus.eyeprotect
 com.oplus.framework.rro.realme
 com.oplus.framework_bluetooth.overlay
 com.oplus.gesture
-com.oplus.location
-com.oplus.metis
 com.oplus.multimedia.dirac
 com.oplus.notificationmanager
 com.oplus.nrMode

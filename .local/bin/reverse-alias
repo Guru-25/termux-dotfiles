@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Prompt user for contact input
+echo -n "First Last <email@example.com>: "
+read contact
+
+# Define the API URL
+API_URL="https://app.simplelogin.io/api/aliases/3677995/contacts"
+
+# Make the POST request and extract the reverse_alias
+response=$(curl -sX POST \
+     -H "Authentication: $SIMPLELOGIN_API_KEY" \
+     -H "Content-Type: application/json" \
+     -d "{\"contact\": \"$contact\"}" \
+     "$API_URL")
+
+reverse_alias=$(echo "$response" | jq -r '.reverse_alias')
+echo -e "$reverse_alias"
+
