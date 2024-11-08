@@ -159,7 +159,6 @@ pcre
 pcre2
 pinentry
 pkg-config
-postgresql
 procps
 psmisc
 python

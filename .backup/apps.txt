@@ -52,7 +52,6 @@ com.android.providers.media
 com.android.providers.settings
 com.android.providers.telephony
 com.android.providers.userdictionary
-com.android.remoteprovisioner
 com.android.safetycenter.resources.overlay
 com.android.safetycenter.styles.overlay
 com.android.se
