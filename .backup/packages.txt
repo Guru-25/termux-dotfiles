@@ -136,6 +136,7 @@ tar
 termux-am
 termux-am-socket
 termux-auth
+termux-core
 termux-elf-cleaner
 termux-exec
 termux-keyring
@@ -151,6 +152,7 @@ tree-sitter-vim
 tree-sitter-vimdoc
 unbound
 unzip
+utf8proc
 util-linux
 wget
 whois
