@@ -125,7 +125,6 @@ com.google.android.tts
 com.google.android.webview
 com.google.mainline.telemetry
 com.heytap.market
-com.heytap.market.overlay
 com.oplus.appplatform
 com.oplus.athena
 com.oplus.atlas
