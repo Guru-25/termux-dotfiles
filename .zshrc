@@ -82,6 +82,11 @@ it() {
 	grep --color='auto' --ignore-case "$1" ~/IT_DB.txt
 }
 
+# tce db
+tce() {
+	grep --color='auto' --ignore-case "$1" ~/TCE.txt
+}
+
 # go to home
 alias home='cd ~/storage/shared/'
 
