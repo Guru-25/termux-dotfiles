@@ -28,7 +28,12 @@ source "$HOME/.secrets"
 
 alias sk='node mongo-query'
 alias dev='am start -a android.settings.APPLICATION_DEVELOPMENT_SETTINGS'
-alias rish='~/.scripts/custom/rish'
+alias rish='~/.scripts/custom/rish' 
+alias appbackup='~/.scripts/custom/rish -c "pm list packages -s | sed 's/package://' | sort > ~/.backup/apps.txt"' 
+
+sudo() {
+    ~/.scripts/custom/rish -c "sh -c \"$*\""
+}
 
 ### disable underline in zsh-syntax-highlighting
 (( ${+ZSH_HIGHLIGHT_STYLES} )) || typeset -A ZSH_HIGHLIGHT_STYLES

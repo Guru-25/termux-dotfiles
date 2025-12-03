@@ -4,11 +4,6 @@
 pip3 install pyrogram
 ```
 
-### [gallery-dl](https://github.com/mikf/gallery-dl#pip)
-```
-python3 -m pip install -U gallery-dl
-```
-
 # custom
 ### [mayTermux](https://github.com/mayTermux/myTermux#installation-dependecies)
 ```
