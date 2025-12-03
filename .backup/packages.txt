@@ -1,16 +1,11 @@
 # pkg
-abseil-cpp
-android-tools
 apt
-argp
 attr
 bash
 bash-completion
 bat
 bc
-brotli
 bzip2
-c-ares
 ca-certificates
 clang
 command-not-found
@@ -22,7 +17,6 @@ dialog
 diffutils
 dos2unix
 dpkg
-dwarves
 ed
 eza
 fastfetch
@@ -38,9 +32,7 @@ grep
 gzip
 inetutils
 inotify-tools
-iproute2
 jq
-json-c
 krb5
 ldns
 less
@@ -57,9 +49,7 @@ libcompiler-rt
 libcrypt
 libcurl
 libdb
-libdw
 libedit
-libelf
 libevent
 libexpat
 libffi
@@ -84,7 +74,6 @@ libnettle
 libnghttp2
 libnghttp3
 libnpth
-libprotobuf
 libresolv-wrapper
 libsmartcols
 libsqlite
@@ -93,7 +82,6 @@ libtirpc
 libunbound
 libunibilium
 libunistring
-libusb
 libuuid
 libuv
 libvterm
@@ -105,20 +93,17 @@ lua51-lpeg
 luv
 m4
 make
-man
 nano
 ncurses
 ncurses-ui-libs
 ndk-sysroot
 neovim
 net-tools
-nodejs-lts
 oniguruma
 openssh
 openssh-sftp-server
 openssl
 patch
-pcre
 pcre2
 pinentry
 pkg-config
@@ -137,7 +122,6 @@ termux-am
 termux-am-socket
 termux-auth
 termux-core
-termux-elf-cleaner
 termux-exec
 termux-keyring
 termux-licenses
@@ -150,13 +134,11 @@ tree-sitter-parsers
 tree-sitter-query
 tree-sitter-vim
 tree-sitter-vimdoc
-unbound
 unzip
 utf8proc
 util-linux
 wget
 whois
-x11-repo
 xxhash
 xz-utils
 zlib
