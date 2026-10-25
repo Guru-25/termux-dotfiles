@@ -20,16 +20,14 @@ export TERM=xterm-256color
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.autostart
-source "$HOME/.secrets"
 
 # sshd
 
 # User configuration
 
-alias sk='node mongo-query'
 alias dev='am start -a android.settings.APPLICATION_DEVELOPMENT_SETTINGS'
 alias rish='~/.scripts/custom/rish' 
-alias appbackup='~/.scripts/custom/rish -c "pm list packages -s | sed 's/package://' | sort > ~/.backup/apps.txt"' 
+alias appbackup='~/.scripts/custom/rish -c "pm list packages -s" | sed "s/^package://" | sort > ~/.backup/apps.txt'
 
 sudo() {
     ~/.scripts/custom/rish -c "sh -c \"$*\""

@@ -1,3 +1,7 @@
+import asyncio
+
+asyncio.set_event_loop(asyncio.new_event_loop())
+
 from pyrogram import Client
 
 API_KEY = int(input("Enter api_id: "))

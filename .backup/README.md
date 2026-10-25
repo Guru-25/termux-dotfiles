@@ -1,7 +1,7 @@
 # pip
 ### [pyrogram](https://github.com/pyrogram/pyrogram#installing)
 ```
-pip3 install pyrogram
+pip install pyrogram
 ```
 
 # custom
